@@ -1,0 +1,15 @@
+*.ipynb*
+*.pyc
+*.swp
+
+.DS_Store
+.idea/
+.pytest_cache/
+.vscode/
+
+__pycache__/
+webshop/data/
+webshop/search_engine/
+webshop/search_engine/
+webshop/transfer/flagged
+webshop/user_session_logs/

@@ -1,0 +1,15 @@
+langchain==0.0.299
+fschat==0.2.35
+transformers==4.36.2
+peft==0.5.0
+accelerate==0.23.0
+pandas==1.5.3
+openai==0.28.0
+cmake
+joblib
+sentencepiece
+deepspeed
+wikipedia
+alfworld
+datasets
+flash_attn
