@@ -25,21 +25,19 @@
 
 
 
-## 🌟 Table of Contents
+## 🌟Table of Contents
 
-- 🛠️[Installation](🔧installation )
+- [🌟Table of Contents](#table-of-contents)
+- [🔧Installation](#installation)
+- [:world_map:Planning Path Generation](#planning-path-generation)
+- [📝Knowledgeable Self-Learning](#knowledgeable-self-learning)
+- [🔖Citation](#citation)
+- [✨Acknowledgement](#acknowledgement)
 
-- :world_map:[Planning Path Generation](Planning-Path-Generation)
-
-- 📝[Knowledgeable Self-Learning](📝Knowledgeable-Self-Learning)
-
-- 🔖[Citation](🔖Citation )
-
-- ✨[Acknowledgement](✨Acknowledgement )
 
   
 
-## 🛠️ Installation
+## 🔧Installation
 
 To get started with KnowAgent, follow these simple installation steps:
 
@@ -51,7 +49,7 @@ pip install -r requirements.txt
 
 We have placed the HotpotQA and ALFWorld datasets under `Path_Generation/alfworld_run/data` and `Path_Generation/hotpotqa_run/data` respectively. For further configuration, we recommend proceeding with the original setup of [ALFWorld](https://github.com/alfworld/alfworld) and [FastChat](https://github.com/lm-sys/FastChat).
 
-## :world_map: Planning Path Generation
+## :world_map:Planning Path Generation
 
 The Planning Path Generation process is integral to KnowAgent. You can find the scripts for running the Planning Path Generation in `Path_Generation` directory, specifically `run_alfworld.sh` and `run_hotpotqa.sh`. These scripts can be executed using bash commands. To tailor the scripts to your needs, you may modify the `mode` parameter to switch between training (`train`) and testing (`test`)modes, and change the `llm_name` parameter to use a different LLM:
 
@@ -71,7 +69,7 @@ python alfworld_run/run_alfworld.py --llm_name llama-2-13b --mode train --output
 python alfworld_run/run_alfworld.py --llm_name llama-2-13b --mode test --output_path output/
 ```
 
-## ♟️ Knowledgeable Self-Learning
+## ♟️Knowledgeable Self-Learning
 
 After obtaining the planning paths and corresponding trajectories, the process of Knowledgeable Self-Learning begins. The generated trajectories are first converted to the Alpaca format using the scripts in the `Self-Learning` directory, such as `traj_reformat.sh`. For initial iterations, use:
 
@@ -125,13 +123,13 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed train/train_lora.py \
     --resume_from_checkpoint False 
 ```
 
-### 🔖 Citation
+## 🔖Citation
 
 ```bibtex
 
 ```
 
-## ✨ Acknowledgement
+## ✨Acknowledgement
 
 - We express our gratitude to the creators and contributors of the following projects, which have significantly influenced the development of KnowAgent:
 
