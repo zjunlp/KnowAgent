@@ -7,7 +7,7 @@
   **Knowledge-Augmented Planning for LLM-Based Agents.**
 
   <p align="center">
-  <a href="=https://arxiv.org/abs/2403.03101">📄Paper</a> •
+  <a href="https://arxiv.org/abs/2403.03101">📄Paper</a> •
   <a href="https://www.zjukg.org/project/KnowAgent/">🌐Web</a>
 	</p>  
 
