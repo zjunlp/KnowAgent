@@ -12,8 +12,8 @@
 	</p>  
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/zjunlp/KnowAgent) 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![](https://img.shields.io/github/last-commit/zjunlp/KnowAgent?color=blue) 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![](https://img.shields.io/github/last-commit/zjunlp/KnowAgent?color=green) 
 
 </div>
 
