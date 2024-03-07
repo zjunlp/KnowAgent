@@ -29,8 +29,8 @@
 
 - [🌟Table of Contents](#table-of-contents)
 - [🔧Installation](#installation)
-- [:world_map:Planning Path Generation](#planning-path-generation)
-- [📝Knowledgeable Self-Learning](#knowledgeable-self-learning)
+- [:world_map:Planning Path Generation](#world_mapplanning-path-generation)
+- [📝Knowledgeable Self-Learning](#%EF%B8%8Fknowledgeable-self-learning)
 - [🔖Citation](#citation)
 - [✨Acknowledgement](#acknowledgement)
 
