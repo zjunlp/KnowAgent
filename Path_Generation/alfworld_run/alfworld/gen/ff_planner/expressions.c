@@ -1211,7 +1211,7 @@ void translate_subtractions( void )
      * minus_fluent value for both directions.
      */
     introduce_minus_fluent( fl );
-    /* replace all occurences in effects and conds and goals
+    /* replace all occurrences in effects and conds and goals
      */
     replace_fl_in_nF_with_minus_fl( fl );
     /* set the initial value of the new fluent
@@ -1484,7 +1484,7 @@ void introduce_minus_fl_effects( int fl )
 	/* now the most "difficult" part: setup the inverted pF and nF
 	 * informations.
 	 *
-	 * NOTE: as fluent occurences are unique in original ef,
+	 * NOTE: as fluent occurrences are unique in original ef,
 	 *       so will they be in new ef. (no len contains both
 	 *       a fluent and its minus-fluent)
 	 *       --> invariant is or should be that the absolute
@@ -2016,7 +2016,7 @@ void encode_lfns_as_artificial_fluents( void )
      * LNF
      */
     introduce_artificial_fluent();
-    /* replace all occurences in pres, conds, effs, and goals
+    /* replace all occurrences in pres, conds, effs, and goals
      */
     replace_non_minimal_lnf_with_artificial_fl();
   }
