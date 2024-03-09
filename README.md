@@ -126,7 +126,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed train/train_lora.py \
 ## 🔖Citation
 
 ```bibtex
-
+@article{zhu2024knowagent,
+  title={KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents},
+  author={Zhu, Yuqi and Qiao, Shuofei and Ou, Yixin and Deng, Shumin and Zhang, Ningyu and Lyu, Shiwei and Shen, Yue and Liang, Lei and Gu, Jinjie and Chen, Huajun},
+  journal={arXiv preprint arXiv:2403.03101},
+  year={2024}
+}
 ```
 
 ## ✨Acknowledgement
