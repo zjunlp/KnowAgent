@@ -28,6 +28,7 @@
 ## 🌟Table of Contents
 
 - [🌟Table of Contents](#table-of-contents)
+- [🔔News](#news)
 - [🔧Installation](#installation)
 - [:world_map:Planning Path Generation](#world_mapplanning-path-generation)
 - [📝Knowledgeable Self-Learning](#%EF%B8%8Fknowledgeable-self-learning)
@@ -37,6 +38,11 @@
 
   
 
+## 🔔News
+
+- **[2024-03]** We release a new paper: "[KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents](https://arxiv.org/abs/2403.03101)".
+
+  
 ## 🔧Installation
 
 To get started with KnowAgent, follow these simple installation steps:
