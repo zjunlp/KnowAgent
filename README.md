@@ -74,6 +74,7 @@ python alfworld_run/run_alfworld.py --llm_name llama-2-13b --mode train --output
 # For testing with ALFWorld
 python alfworld_run/run_alfworld.py --llm_name llama-2-13b --mode test --output_path output/
 ```
+Here we release the trajectories synthesized by Llama-{7,13,70}b-chat in [Google Drive](https://drive.google.com/drive/folders/1ULHFvplZhpmfLNE7Oty3dJcl1FCnkHNM?usp=sharing) before Filtering.
 
 ## ♟️Knowledgeable Self-Learning
 
