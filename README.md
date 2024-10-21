@@ -78,7 +78,9 @@ Here we release the trajectories synthesized by Llama-{7,13,70}b-chat in [Google
 
 ## ♟️Knowledgeable Self-Learning
 
-After obtaining the planning paths and corresponding trajectories, the process of Knowledgeable Self-Learning begins. The generated trajectories are first converted to the Alpaca format using the scripts in the `Self-Learning` directory, such as `traj_reformat.sh`. For initial iterations, use:
+After obtaining the planning paths and corresponding trajectories, the Knowledgeable Self-Learning process begins. The generated trajectories must first be converted into the Alpaca format using the scripts located in the Self-Learning directory.
+
+For the initial iterations, follow the steps outlined in `traj_reformat.sh`:
 
 ```
 cd Self-Learning
@@ -89,7 +91,8 @@ python train/Hotpotqa_reformat.py --input_path trajs/KnowAgentHotpotQA_llama-2-1
 python train/ALFWorld_reformat.py --input_path trajs/KnowAgentALFWorld_llama-2-13b.jsonl --output_path train/datas
 ```
 
-For subsequent iterations, before running `traj_reformat.sh`, it's necessary to perform Knowledge-Based Trajectory Filtering and Merging using `traj_merge_and_filter.sh`:
+For subsequent iterations, it is essential to perform Knowledge-Based Trajectory Filtering and Merging before running the trajectory reformatting script. 
+You can achieve this using `traj_merge_and_filter.sh`:
 
 ```
 python trajs/traj_merge_and_filter.py \
@@ -99,7 +102,7 @@ python trajs/traj_merge_and_filter.py \
     --output_path   trajs/datas 
 ```
 
-Next, commence Self-Learning by running `train.sh` and `train_iter.sh`, referring to the scripts in `Self-Learning/train.sh` and `Self-Learning/train_iter.sh`:
+Next, initiate the Self-Learning process by running `train.sh` and `train_iter.sh`, as specified in the scripts located in `Self-Learning/train.sh` and `Self-Learning/train_iter.sh`:
 
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed train/train_lora.py \
