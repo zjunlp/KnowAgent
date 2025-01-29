@@ -39,7 +39,8 @@
   
 
 ## 🔔News
-
+- **[2025-01]** Our paper has been accepted to the NAACL 2025 Findings!
+- **[2024-08]** Our paper received the Best Paper Award at the KnowledgeNLP workshop at ACL 2024! 
 - **[2024-03]** We release a new paper: "[KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents](https://arxiv.org/abs/2403.03101)".
 
   
